@@ -148,6 +148,14 @@ p {
     clear: both;
     letter-spacing: 0.4px;
 }
+li{
+    color: #111111;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 100;
+    clear: both;
+    letter-spacing: 0.4px;
+}
 hr {
     width: 40px;
     height: 1px;
