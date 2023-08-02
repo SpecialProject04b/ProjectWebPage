@@ -2709,8 +2709,8 @@ ul.social-buttons li {
     line-height: 60px;
     -webkit-font-smoothing: antialiased;
     position: relative;
-    color: #FFFFFF;
-    background: #5F5F5F;
+    color: #5F5F5F;
+    background: #FFFFFF;
     border-radius: 50%;
     text-align: center;
     left: 20%;
@@ -3134,3 +3134,35 @@ a img.aligncenter {
 .alert-danger .alert-link {
   color: #d2d2d2;
 }
+
+.team-img{
+    margin-top:170px ;
+    width: 80%;
+}
+
+@media screen and (max-width: 991px) {
+    /* Mobile-specific styles go here */
+    .team-img {
+      display: none;
+      /* Adjust font size for better mobile readability */
+    }
+
+    .team-info{
+        right: 0;
+        padding: 0 !important;
+        /* margin: 0 !important; */
+    }
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-template-rows: 1fr 1fr 1fr; /* Three rows with equal height */
+    gap: 10px; /* Add some gap between grid items for spacing */
+  }
+  
+  .grid-item {
+    /* Add styles for grid items here */
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
